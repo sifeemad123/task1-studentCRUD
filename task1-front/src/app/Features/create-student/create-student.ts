@@ -24,7 +24,7 @@ export class CreateStudent {
   submit() {
     if (this.form.invalid) {
       this.form.markAllAsTouched();
-      alert("Please Fill All Required Failds")
+      alert("Please Fill All Required Felids")
       return;
     }
     const student: Students = this.form.getRawValue();
@@ -32,6 +32,7 @@ export class CreateStudent {
       next: () => {
         this.form.reset();
         alert('Student Created Successfully');
+        this.router.navigate(['/allStudents']);
       },
     });
   }

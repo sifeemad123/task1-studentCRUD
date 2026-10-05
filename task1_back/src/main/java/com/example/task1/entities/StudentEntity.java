@@ -8,7 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "springStudentsTable")
+@Table(name = "sStudentst1")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

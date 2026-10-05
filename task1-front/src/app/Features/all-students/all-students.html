@@ -34,12 +34,11 @@
                         <td>
                             <div class="but-per">
                                 <button (click)="deleteStudent(student.id)">Delete</button>
-                                <button>Edit</button>
                             </div>
                         </td>
                     </tr>
                 }@empty {
-                    <tr><td colspan="4" class="messeage">No Students Found</td></tr>
+                    <tr><td colspan="5" class="messeage">No Students Found</td></tr>
                 }
             </tbody>
         </Table>
