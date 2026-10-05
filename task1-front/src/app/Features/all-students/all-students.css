@@ -1,0 +1,50 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+
+.per {
+    width: 80%;
+    margin: 50px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: brown;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid brown;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+tbody {
+    font-size: 15px;
+}
+
+.messeage {
+    padding: 20px;
+    color: brown;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: brown;
+}
+
+.but-per{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

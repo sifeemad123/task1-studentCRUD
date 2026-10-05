@@ -1,0 +1,23 @@
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    color: brown;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: red;
+}
